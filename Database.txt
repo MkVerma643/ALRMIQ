@@ -1,0 +1,8 @@
+create database ALRMIQ;
+use ALRMIQ;
+
+create table admin(adminname varchar(10), password varchar(25));
+insert into admin values('Admin','mk.verma');
+
+create table register(name varchar(20), uname varchar(10), email varchar(35), mobile varchar(10), password varchar(25));
+create table feedback(fid int(30) auto_increment primary key,fdate date,user varchar(30),email varchar(50), feed text);

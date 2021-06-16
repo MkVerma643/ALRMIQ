@@ -1,0 +1,16 @@
+Works With Apache Tomcat Server and MySQL
+
+Tomcat Server:-
+localhost:8080
+localhost:8080/ALRMIQ/ALRMIQ.jsp
+
+
+MySQL Configuration Password:- rdnc
+
+For jdbc:lang:error 
+copy and paste 
+MySQL driver into C:>> Tomcat >>lib folder
+
+******For changing the pswd of MYsql Server.******
+UPDATE mysql.user SET Password=PASSWORD('password') WHERE User='root'; FLUSH PRIVILEGES;
+-------------------------------------------------------------------------------
